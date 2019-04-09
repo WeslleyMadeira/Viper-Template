@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home Story Board View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="HomeStoryBoardViewController" id="BYZ-38-t0r" customClass="HomeStoryBoardViewController" customModule="Viper_Template" customModuleProvider="___VARIABLE_ibCustomModuleProvider___" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="viper" translatesAutoresizingMaskIntoConstraints="NO" id="WAL-O3-SP6">
+                                <rect key="frame" x="67.5" y="146" width="240" height="215"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="4jt-Sr-SAb"/>
+                                    <constraint firstAttribute="width" secondItem="WAL-O3-SP6" secondAttribute="height" multiplier="48:43" id="5c7-00-fBD"/>
+                                    <constraint firstAttribute="height" constant="215" id="84Y-gd-CYR"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" Wood Viper Template" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="SSo-cw-nDQ">
+                                <rect key="frame" x="16" y="381" width="343" height="32.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="27"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Storyboard" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="qG1-Je-Egz">
+                                <rect key="frame" x="16" y="421.5" width="343" height="33"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="27"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="qG1-Je-Egz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Bxx-Sh-Sai"/>
+                            <constraint firstItem="SSo-cw-nDQ" firstAttribute="top" secondItem="WAL-O3-SP6" secondAttribute="bottom" constant="20" id="FFW-SW-cOl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="SSo-cw-nDQ" secondAttribute="trailing" constant="16" id="MJg-gR-IGe"/>
+                            <constraint firstItem="WAL-O3-SP6" firstAttribute="width" secondItem="WAL-O3-SP6" secondAttribute="height" multiplier="48:43" id="Ois-gh-Rbt"/>
+                            <constraint firstItem="WAL-O3-SP6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Qbq-Yd-8eD"/>
+                            <constraint firstItem="WAL-O3-SP6" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-80" id="bnj-yw-7bZ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qG1-Je-Egz" secondAttribute="trailing" constant="16" id="e5b-0m-jxo"/>
+                            <constraint firstItem="qG1-Je-Egz" firstAttribute="top" secondItem="SSo-cw-nDQ" secondAttribute="bottom" constant="8" id="ikf-3g-IX9"/>
+                            <constraint firstItem="qG1-Je-Egz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="oXi-LP-Afb"/>
+                            <constraint firstItem="SSo-cw-nDQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="sLa-xs-jcI"/>
+                            <constraint firstItem="SSo-cw-nDQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="t7Y-cH-KsV"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="viper" width="1440" height="1364"/>
+    </resources>
+</document>

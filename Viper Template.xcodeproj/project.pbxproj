@@ -8,12 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		A03FE950225D11C400BADADC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03FE94F225D11C400BADADC /* AppDelegate.swift */; };
-		A03FE952225D11C400BADADC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03FE951225D11C400BADADC /* ViewController.swift */; };
-		A03FE955225D11C400BADADC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A03FE953225D11C400BADADC /* Main.storyboard */; };
 		A03FE957225D11C700BADADC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A03FE956225D11C700BADADC /* Assets.xcassets */; };
 		A03FE95A225D11C700BADADC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A03FE958225D11C700BADADC /* LaunchScreen.storyboard */; };
 		A03FE965225D11C700BADADC /* Viper_TemplateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03FE964225D11C700BADADC /* Viper_TemplateTests.swift */; };
 		A03FE970225D11C700BADADC /* Viper_TemplateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03FE96F225D11C700BADADC /* Viper_TemplateUITests.swift */; };
+		A03FE988225D123D00BADADC /* HomeContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03FE982225D123D00BADADC /* HomeContract.swift */; };
+		A03FE989225D123D00BADADC /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03FE983225D123D00BADADC /* HomePresenter.swift */; };
+		A03FE98A225D123D00BADADC /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03FE984225D123D00BADADC /* HomeRouter.swift */; };
+		A03FE98B225D123D00BADADC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03FE985225D123D00BADADC /* HomeViewController.swift */; };
+		A03FE98C225D123D00BADADC /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03FE986225D123D00BADADC /* HomeInteractor.swift */; };
+		A03FE98D225D123D00BADADC /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A03FE987225D123D00BADADC /* HomeViewController.xib */; };
+		A03FE990225D126600BADADC /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03FE98F225D126600BADADC /* BaseView.swift */; };
+		A03FE992225D127900BADADC /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03FE991225D127900BADADC /* BaseViewController.swift */; };
+		A03FE9AE225D15FF00BADADC /* EXStoryboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03FE9AD225D15FF00BADADC /* EXStoryboards.swift */; };
+		A03FE9CD225D185C00BADADC /* HomeStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A03FE9C7225D185C00BADADC /* HomeStoryBoard.storyboard */; };
+		A03FE9CE225D185C00BADADC /* HomeStoryBoardContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03FE9C8225D185C00BADADC /* HomeStoryBoardContract.swift */; };
+		A03FE9CF225D185C00BADADC /* HomeStoryBoardPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03FE9C9225D185C00BADADC /* HomeStoryBoardPresenter.swift */; };
+		A03FE9D0225D185C00BADADC /* HomeStoryBoardRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03FE9CA225D185C00BADADC /* HomeStoryBoardRouter.swift */; };
+		A03FE9D1225D185C00BADADC /* HomeStoryBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03FE9CB225D185C00BADADC /* HomeStoryBoardViewController.swift */; };
+		A03FE9D2225D185C00BADADC /* HomeStoryBoardInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03FE9CC225D185C00BADADC /* HomeStoryBoardInteractor.swift */; };
+		A03FE9D9225D19BA00BADADC /* HomeCodeContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03FE9D4225D19BA00BADADC /* HomeCodeContract.swift */; };
+		A03FE9DA225D19BA00BADADC /* HomeCodePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03FE9D5225D19BA00BADADC /* HomeCodePresenter.swift */; };
+		A03FE9DB225D19BA00BADADC /* HomeCodeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03FE9D6225D19BA00BADADC /* HomeCodeRouter.swift */; };
+		A03FE9DC225D19BA00BADADC /* HomeCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03FE9D7225D19BA00BADADC /* HomeCodeViewController.swift */; };
+		A03FE9DD225D19BA00BADADC /* HomeCodeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03FE9D8225D19BA00BADADC /* HomeCodeInteractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +54,6 @@
 /* Begin PBXFileReference section */
 		A03FE94C225D11C400BADADC /* Viper Template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Viper Template.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A03FE94F225D11C400BADADC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A03FE951225D11C400BADADC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A03FE954225D11C400BADADC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A03FE956225D11C700BADADC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A03FE959225D11C700BADADC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A03FE95B225D11C700BADADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +63,26 @@
 		A03FE96B225D11C700BADADC /* Viper TemplateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Viper TemplateUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A03FE96F225D11C700BADADC /* Viper_TemplateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Viper_TemplateUITests.swift; sourceTree = "<group>"; };
 		A03FE971225D11C700BADADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A03FE982225D123D00BADADC /* HomeContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeContract.swift; sourceTree = "<group>"; };
+		A03FE983225D123D00BADADC /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		A03FE984225D123D00BADADC /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		A03FE985225D123D00BADADC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A03FE986225D123D00BADADC /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		A03FE987225D123D00BADADC /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		A03FE98F225D126600BADADC /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		A03FE991225D127900BADADC /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		A03FE9AD225D15FF00BADADC /* EXStoryboards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EXStoryboards.swift; sourceTree = "<group>"; };
+		A03FE9C7225D185C00BADADC /* HomeStoryBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeStoryBoard.storyboard; sourceTree = "<group>"; };
+		A03FE9C8225D185C00BADADC /* HomeStoryBoardContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeStoryBoardContract.swift; sourceTree = "<group>"; };
+		A03FE9C9225D185C00BADADC /* HomeStoryBoardPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeStoryBoardPresenter.swift; sourceTree = "<group>"; };
+		A03FE9CA225D185C00BADADC /* HomeStoryBoardRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeStoryBoardRouter.swift; sourceTree = "<group>"; };
+		A03FE9CB225D185C00BADADC /* HomeStoryBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeStoryBoardViewController.swift; sourceTree = "<group>"; };
+		A03FE9CC225D185C00BADADC /* HomeStoryBoardInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeStoryBoardInteractor.swift; sourceTree = "<group>"; };
+		A03FE9D4225D19BA00BADADC /* HomeCodeContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCodeContract.swift; sourceTree = "<group>"; };
+		A03FE9D5225D19BA00BADADC /* HomeCodePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCodePresenter.swift; sourceTree = "<group>"; };
+		A03FE9D6225D19BA00BADADC /* HomeCodeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCodeRouter.swift; sourceTree = "<group>"; };
+		A03FE9D7225D19BA00BADADC /* HomeCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCodeViewController.swift; sourceTree = "<group>"; };
+		A03FE9D8225D19BA00BADADC /* HomeCodeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCodeInteractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +133,11 @@
 		A03FE94E225D11C400BADADC /* Viper Template */ = {
 			isa = PBXGroup;
 			children = (
-				A03FE94F225D11C400BADADC /* AppDelegate.swift */,
-				A03FE951225D11C400BADADC /* ViewController.swift */,
-				A03FE953225D11C400BADADC /* Main.storyboard */,
-				A03FE956225D11C700BADADC /* Assets.xcassets */,
-				A03FE958225D11C700BADADC /* LaunchScreen.storyboard */,
+				A03FE980225D121200BADADC /* LauncheScreen */,
+				A03FE97F225D120400BADADC /* Assets */,
+				A03FE97E225D11E800BADADC /* Delegate */,
+				A03FE97D225D11D200BADADC /* Features */,
+				A03FE9AC225D15D700BADADC /* Utils */,
 				A03FE95B225D11C700BADADC /* Info.plist */,
 			);
 			path = "Viper Template";
@@ -123,6 +159,96 @@
 				A03FE971225D11C700BADADC /* Info.plist */,
 			);
 			path = "Viper TemplateUITests";
+			sourceTree = "<group>";
+		};
+		A03FE97D225D11D200BADADC /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				A03FE98E225D124E00BADADC /* Base  */,
+				A03FE99F225D15B300BADADC /* Home (sotoryBoard) */,
+				A03FE981225D122700BADADC /* Home (xib) */,
+				A03FE9D3225D199C00BADADC /* Home (Code) */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		A03FE97E225D11E800BADADC /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				A03FE94F225D11C400BADADC /* AppDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		A03FE97F225D120400BADADC /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				A03FE956225D11C700BADADC /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		A03FE980225D121200BADADC /* LauncheScreen */ = {
+			isa = PBXGroup;
+			children = (
+				A03FE958225D11C700BADADC /* LaunchScreen.storyboard */,
+			);
+			path = LauncheScreen;
+			sourceTree = "<group>";
+		};
+		A03FE981225D122700BADADC /* Home (xib) */ = {
+			isa = PBXGroup;
+			children = (
+				A03FE982225D123D00BADADC /* HomeContract.swift */,
+				A03FE983225D123D00BADADC /* HomePresenter.swift */,
+				A03FE984225D123D00BADADC /* HomeRouter.swift */,
+				A03FE985225D123D00BADADC /* HomeViewController.swift */,
+				A03FE986225D123D00BADADC /* HomeInteractor.swift */,
+				A03FE987225D123D00BADADC /* HomeViewController.xib */,
+			);
+			path = "Home (xib)";
+			sourceTree = "<group>";
+		};
+		A03FE98E225D124E00BADADC /* Base  */ = {
+			isa = PBXGroup;
+			children = (
+				A03FE98F225D126600BADADC /* BaseView.swift */,
+				A03FE991225D127900BADADC /* BaseViewController.swift */,
+			);
+			path = "Base ";
+			sourceTree = "<group>";
+		};
+		A03FE99F225D15B300BADADC /* Home (sotoryBoard) */ = {
+			isa = PBXGroup;
+			children = (
+				A03FE9C7225D185C00BADADC /* HomeStoryBoard.storyboard */,
+				A03FE9C8225D185C00BADADC /* HomeStoryBoardContract.swift */,
+				A03FE9C9225D185C00BADADC /* HomeStoryBoardPresenter.swift */,
+				A03FE9CA225D185C00BADADC /* HomeStoryBoardRouter.swift */,
+				A03FE9CB225D185C00BADADC /* HomeStoryBoardViewController.swift */,
+				A03FE9CC225D185C00BADADC /* HomeStoryBoardInteractor.swift */,
+			);
+			path = "Home (sotoryBoard)";
+			sourceTree = "<group>";
+		};
+		A03FE9AC225D15D700BADADC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A03FE9AD225D15FF00BADADC /* EXStoryboards.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		A03FE9D3225D199C00BADADC /* Home (Code) */ = {
+			isa = PBXGroup;
+			children = (
+				A03FE9D4225D19BA00BADADC /* HomeCodeContract.swift */,
+				A03FE9D5225D19BA00BADADC /* HomeCodePresenter.swift */,
+				A03FE9D6225D19BA00BADADC /* HomeCodeRouter.swift */,
+				A03FE9D7225D19BA00BADADC /* HomeCodeViewController.swift */,
+				A03FE9D8225D19BA00BADADC /* HomeCodeInteractor.swift */,
+			);
+			path = "Home (Code)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +357,8 @@
 			files = (
 				A03FE95A225D11C700BADADC /* LaunchScreen.storyboard in Resources */,
 				A03FE957225D11C700BADADC /* Assets.xcassets in Resources */,
-				A03FE955225D11C400BADADC /* Main.storyboard in Resources */,
+				A03FE9CD225D185C00BADADC /* HomeStoryBoard.storyboard in Resources */,
+				A03FE98D225D123D00BADADC /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +383,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A03FE952225D11C400BADADC /* ViewController.swift in Sources */,
+				A03FE9D1225D185C00BADADC /* HomeStoryBoardViewController.swift in Sources */,
+				A03FE98B225D123D00BADADC /* HomeViewController.swift in Sources */,
+				A03FE9DC225D19BA00BADADC /* HomeCodeViewController.swift in Sources */,
+				A03FE989225D123D00BADADC /* HomePresenter.swift in Sources */,
+				A03FE98A225D123D00BADADC /* HomeRouter.swift in Sources */,
+				A03FE98C225D123D00BADADC /* HomeInteractor.swift in Sources */,
+				A03FE9D0225D185C00BADADC /* HomeStoryBoardRouter.swift in Sources */,
+				A03FE990225D126600BADADC /* BaseView.swift in Sources */,
+				A03FE9DB225D19BA00BADADC /* HomeCodeRouter.swift in Sources */,
+				A03FE9D9225D19BA00BADADC /* HomeCodeContract.swift in Sources */,
+				A03FE992225D127900BADADC /* BaseViewController.swift in Sources */,
+				A03FE988225D123D00BADADC /* HomeContract.swift in Sources */,
+				A03FE9CE225D185C00BADADC /* HomeStoryBoardContract.swift in Sources */,
+				A03FE9D2225D185C00BADADC /* HomeStoryBoardInteractor.swift in Sources */,
 				A03FE950225D11C400BADADC /* AppDelegate.swift in Sources */,
+				A03FE9AE225D15FF00BADADC /* EXStoryboards.swift in Sources */,
+				A03FE9DA225D19BA00BADADC /* HomeCodePresenter.swift in Sources */,
+				A03FE9DD225D19BA00BADADC /* HomeCodeInteractor.swift in Sources */,
+				A03FE9CF225D185C00BADADC /* HomeStoryBoardPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +437,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A03FE953225D11C400BADADC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A03FE954225D11C400BADADC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A03FE958225D11C700BADADC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
