@@ -33,7 +33,7 @@
 		A03FE9DC225D19BA00BADADC /* HomeCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03FE9D7225D19BA00BADADC /* HomeCodeViewController.swift */; };
 		A03FE9DD225D19BA00BADADC /* HomeCodeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03FE9D8225D19BA00BADADC /* HomeCodeInteractor.swift */; };
 		A0929B48225D274E0006B70D /* installTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0929B46225D274E0006B70D /* installTemplate.swift */; };
-		A0929B49225D274E0006B70D /* Viper (Wood Template)2.xctemplate in Resources */ = {isa = PBXBuildFile; fileRef = A0929B47225D274E0006B70D /* Viper (Wood Template)2.xctemplate */; };
+		A0929B49225D274E0006B70D /* Viper (Wood Template).xctemplate in Resources */ = {isa = PBXBuildFile; fileRef = A0929B47225D274E0006B70D /* Viper (Wood Template).xctemplate */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,7 +86,7 @@
 		A03FE9D7225D19BA00BADADC /* HomeCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCodeViewController.swift; sourceTree = "<group>"; };
 		A03FE9D8225D19BA00BADADC /* HomeCodeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCodeInteractor.swift; sourceTree = "<group>"; };
 		A0929B46225D274E0006B70D /* installTemplate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = installTemplate.swift; sourceTree = "<group>"; };
-		A0929B47225D274E0006B70D /* Viper (Wood Template)2.xctemplate */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Viper (Wood Template)2.xctemplate"; sourceTree = "<group>"; };
+		A0929B47225D274E0006B70D /* Viper (Wood Template).xctemplate */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Viper (Wood Template).xctemplate"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,7 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				A0929B46225D274E0006B70D /* installTemplate.swift */,
-				A0929B47225D274E0006B70D /* Viper (Wood Template)2.xctemplate */,
+				A0929B47225D274E0006B70D /* Viper (Wood Template).xctemplate */,
 				A03FE94E225D11C400BADADC /* Viper Template */,
 				A03FE963225D11C700BADADC /* Viper TemplateTests */,
 				A03FE96E225D11C700BADADC /* Viper TemplateUITests */,
@@ -364,7 +364,7 @@
 				A03FE95A225D11C700BADADC /* LaunchScreen.storyboard in Resources */,
 				A03FE957225D11C700BADADC /* Assets.xcassets in Resources */,
 				A03FE9CD225D185C00BADADC /* HomeStoryBoard.storyboard in Resources */,
-				A0929B49225D274E0006B70D /* Viper (Wood Template)2.xctemplate in Resources */,
+				A0929B49225D274E0006B70D /* Viper (Wood Template).xctemplate in Resources */,
 				A03FE98D225D123D00BADADC /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
