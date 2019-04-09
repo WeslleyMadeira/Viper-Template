@@ -32,7 +32,6 @@
 		A03FE9DB225D19BA00BADADC /* HomeCodeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03FE9D6225D19BA00BADADC /* HomeCodeRouter.swift */; };
 		A03FE9DC225D19BA00BADADC /* HomeCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03FE9D7225D19BA00BADADC /* HomeCodeViewController.swift */; };
 		A03FE9DD225D19BA00BADADC /* HomeCodeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03FE9D8225D19BA00BADADC /* HomeCodeInteractor.swift */; };
-		A0929B48225D274E0006B70D /* installTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0929B46225D274E0006B70D /* installTemplate.swift */; };
 		A0929B49225D274E0006B70D /* Viper (Wood Template).xctemplate in Resources */ = {isa = PBXBuildFile; fileRef = A0929B47225D274E0006B70D /* Viper (Wood Template).xctemplate */; };
 /* End PBXBuildFile section */
 
@@ -397,7 +396,6 @@
 				A03FE98A225D123D00BADADC /* HomeRouter.swift in Sources */,
 				A03FE98C225D123D00BADADC /* HomeInteractor.swift in Sources */,
 				A03FE9D0225D185C00BADADC /* HomeStoryBoardRouter.swift in Sources */,
-				A0929B48225D274E0006B70D /* installTemplate.swift in Sources */,
 				A03FE990225D126600BADADC /* BaseView.swift in Sources */,
 				A03FE9DB225D19BA00BADADC /* HomeCodeRouter.swift in Sources */,
 				A03FE9D9225D19BA00BADADC /* HomeCodeContract.swift in Sources */,
